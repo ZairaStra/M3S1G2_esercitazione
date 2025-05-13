@@ -9,7 +9,7 @@ const Welcome = function () {
             <h1 className="font-monospace">EpiBooks</h1>
             <p className="font-monospace">Your Epic Bookstore!</p>
           </div>
-          <Alert variant="danger" className="text-align-center">
+          <Alert variant="danger" className="text-center">
             This web page is under maintenance
           </Alert>
         </Col>
