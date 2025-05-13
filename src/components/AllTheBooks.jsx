@@ -14,7 +14,7 @@ const AllTheBooks = function () {
             <Card className="singleCard">
               <Card.Img className="singleCardImg" src={book.img} />
               <Card.Body className="text-center">
-                <Card.Title className="singleCardTitle text-truncate ">{book.title}</Card.Title>
+                <Card.Title className="singleCardTitle text-truncate">{book.title}</Card.Title>
                 <Card.Text className="singleCardText">{book.category}</Card.Text>
                 <Button className="singleCardButton" variant="danger">
                   {book.price} €
