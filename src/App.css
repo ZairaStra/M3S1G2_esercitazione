@@ -1,0 +1,14 @@
+.footer-container {
+  background-color: rgb(162, 107, 107);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container ul {
+  font-size: large;
+}
+
+.footer-container ul li {
+  list-style: none;
+  text-align: center;
+}
