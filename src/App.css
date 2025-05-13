@@ -26,4 +26,16 @@
 
 .singleCardTitle {
   width: 100px;
+  height: 30%;
+}
+
+.singleCardText {
+  margin-bottom: 0.5rem;
+  font-size: smaller;
+  white-space: normal;
+}
+
+.singleCardButton {
+  padding: 0.5rem 0, 25rem;
+  border-radius: 4rem;
 }
