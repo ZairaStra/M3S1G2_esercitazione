@@ -13,7 +13,7 @@ const AllTheBooks = function () {
           <Col key={`fantasy-${book.asin}`}>
             <Card className="singleCard">
               <Card.Img className="singleCardImg" src={book.img} />
-              <Card.Body className="m-auto">
+              <Card.Body className="m-auto text-center">
                 <Card.Title className="singleCardTitle text-truncate fs-6">{book.title}</Card.Title>
                 <Card.Text>{book.category}</Card.Text>
                 <Button variant="danger">{book.price} €</Button>
