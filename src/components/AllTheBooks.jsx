@@ -64,7 +64,7 @@ class AllTheBooks extends Component {
                 <Card.Body className="text-center">
                   <Card.Title className="singleCardTitle text-truncate">{book.title}</Card.Title>
                   <Card.Text className="singleCardText text-capitalize">{book.category}</Card.Text>
-                  <Button className="singleCardButton d-flex justify-content-between" variant="danger">
+                  <Button className="singleCardButton" variant="danger">
                     <i className="bi bi-basket"></i> <span>{book.price} €</span>
                   </Button>
                 </Card.Body>
