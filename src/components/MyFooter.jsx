@@ -1,6 +1,6 @@
 const MyFooter = function () {
   return (
-    <footer className="footer-container py-2" sticky="bottom">
+    <footer className="footer-container py-2">
       <ul className="mb-0">
         Follow Us on:
         <li>Facebook</li>
