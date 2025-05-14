@@ -58,7 +58,7 @@ class AllTheBooks extends Component {
         </div>
         <Row xs={1} sm={2} md={3} lg={4} xxl={6} className="justify-content-center gy-4">
           {this.state.collection.map((book) => (
-            <Col key={`fantasy-${book.asin}`}>
+            <Col key={book.asin}>
               <Card className="singleCard">
                 <Card.Img className="singleCardImg" variant="top" src={book.img} />
                 <Card.Body className="text-center">
